@@ -88,5 +88,6 @@ torchrun --rdzv_endpoint 127.0.0.1:1234 --nproc_per_node 8 train.py --model 7B \
 --blr 9e-2 --weight_decay 0.14 --output_dir ./checkpoint/how2qa --val_split 'public_val' --accum_iter 2 --vaq 0.6 --aqa 0.3 --aqa_gate
 ```
 
+We provide checkpoints [here](https://huggingface.co/AInsabsw/BoViLA).
 ## Evaluation
 From the training command, simply add ```--resume ./your/checkpoint.pth``` and ```--init_eval```.
