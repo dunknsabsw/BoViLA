@@ -18,7 +18,7 @@ bash setup.sh
 
 ## Dataset & LLaMA Preparation
 
-You can download our preprocessed datasets (How2QA, STAR, DramaQA, VLEP and TVQA) at [here](https://drive.google.com/drive/folders/1ED2VcFSxRW9aFIP2WdGDgLddNTyEVrE5?usp=sharing). Put them in ```./data```. Also, you can download original LLaMA at [here](https://github.com/facebookresearch/llama/tree/llama_v1), and put the checkpoint in ```./pretrained```.
+You can download our preprocessed datasets (How2QA, STAR, DramaQA, VLEP and TVQA) at [here](https://drive.google.com/drive/folders/1vFVjMLQWVCKL7KAcLGtuKANv5K-uppeH?usp=sharing). Put them in ```./data```. Also, you can download original LLaMA at [here](https://github.com/facebookresearch/llama/tree/llama_v1), and put the checkpoint in ```./pretrained```.
 
 ```
 ./pretrained
